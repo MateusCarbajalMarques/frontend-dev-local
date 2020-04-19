@@ -1,0 +1,6 @@
+import axios from 'axios';
+
+const api = axios.create({
+    baseURL: 'https://backend-dev-local.herokuapp.com'
+})
+export default api;
