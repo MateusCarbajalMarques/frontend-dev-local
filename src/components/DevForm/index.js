@@ -51,8 +51,9 @@ async function handleSubmit(e){
             </div>
 
             <div className="input-block">
-                <label htmlFor="techs">Tecnologias</label>
+                <label htmlFor="techs">Tecnologias que você trabalha  *<span>(separadas por vírgulas)</span></label>
                 <input
+                    placeholder="Ex: PHP, HTML, CSS"
                     name="techs"
                     id="techs"
                     required
